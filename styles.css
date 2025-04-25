@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+.background {
+  position: fixed;
+}
+
+.background {
+  z-index: 1;
+  top: auto-10%;
+  left: -10%;
+  width: 120%;
+  height: 120%;
+  background-image: url("https://www.smkibgbogor.sch.id/media_library/images/e0f0f006cf07a10c10c77a55552fc21a.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.5;
+}
+body.open .background {
+  filter: blur(20px);
+}
+.navbar {
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: flex;
+  place-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 72%;
+  padding-left: 20px;
+  padding-right: 72px;
+  background: #19191c;
+  color: #f9f9f9;
+}
+
+.nav > button {
+  font-size: 25px;
+}
+
+.navbar-logo {
+  height: 25px;
+}
